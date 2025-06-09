@@ -1,0 +1,12 @@
+opencv-python==4.11.0.86  # 用于图像处理和摄像头访问
+mediapipe==0.10.21  # Google的面部追踪库，用于面部特征点检测（Apple Silicon兼容版本）
+numpy==1.26.4  # 数值计算库
+# 以下是mediapipe在Apple Silicon上运行所需的其他依赖
+absl-py==2.3.0
+attrs>=19.1.0
+protobuf>=4.25.3
+jax>=0.6.1
+jaxlib>=0.6.1
+sentencepiece>=0.2.0
+sounddevice>=0.5.2
+# 注意：此文件针对macOS Apple Silicon (M系列芯片)优化 

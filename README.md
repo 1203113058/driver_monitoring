@@ -31,9 +31,9 @@ $ cd driver_monitoring
 # driver monitorting system
 $ python3 dms.py --checkpoint models/model_split.h5 --video <path_to_video> 
                                                     --webcam <cam_id> # or
+# step1 选择虚拟环境 ca py310 
 
-# play with only facial tracking
-$ python3 facial.py
+$ step2  python3 facial.py
 ```
 
 ## Dataset

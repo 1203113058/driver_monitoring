@@ -1,0 +1,7 @@
+tensorflow>=2.5.0  # 深度学习框架，用于运行MobileNet模型
+torch>=1.11.0  # PyTorch，用于运行YOLOv5模型
+opencv-python>=4.5.5  # 用于图像处理和摄像头访问
+mediapipe>=0.8.9  # Google的面部追踪库，用于面部特征点检测
+matplotlib>=3.5.1  # 用于可视化和图表
+numpy>=1.19.2  # 数值计算库
+scikit-learn>=1.0.2  # 机器学习工具库 
